@@ -1,0 +1,21 @@
+.data {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(180, 180, 180, 0.8);
+}
+.btn {
+  background-color: rgb(43, 255, 0);
+  border-style: none;
+  padding: 5px 20px 5px 20px;
+  height: 25%;
+  border-radius: 5px;
+}
+h2 {
+  font-weight: 500;
+}

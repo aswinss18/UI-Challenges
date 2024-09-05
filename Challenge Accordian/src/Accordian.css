@@ -1,0 +1,8 @@
+.accordian {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 1rem 2rem 2rem 2rem;
+}
