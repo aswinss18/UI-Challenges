@@ -13,9 +13,17 @@
   background-color: rgb(43, 255, 0);
   border-style: none;
   padding: 5px 20px 5px 20px;
-  height: 25%;
+  height: 2rem;
   border-radius: 5px;
+  width: 5rem;
+  font-weight: 600;
 }
 h2 {
   font-weight: 500;
+}
+.btn-red {
+  background-color: rgb(255, 85, 85);
+}
+.btn-neutral {
+  background-color: rgb(255, 213, 0);
 }

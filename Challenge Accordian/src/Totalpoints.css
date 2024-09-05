@@ -17,7 +17,8 @@
   border-radius: 10px;
 }
 .bi {
-  background-color: rgb(185, 184, 184);
+  background-color: rgb(136, 136, 136);
+  color: white;
   padding: 5px 7px 5px 7px;
   border-radius: 50%;
   box-shadow: 1px 1px 5px rgba(180, 180, 180, 0.6);
