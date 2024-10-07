@@ -8,6 +8,8 @@
   margin-top: 10px;
   border-radius: 10px;
   box-shadow: 1px 1px 10px rgba(180, 180, 180, 0.5);
+  cursor: pointer;
+  transition: all 200ms ease-in;
 }
 .cover {
   display: flex;
@@ -15,6 +17,11 @@
   justify-content: space-between;
   width: 100%;
   border-radius: 10px;
+}
+.totalpoints:hover {
+  box-shadow: 6px 2px 12px rgba(97, 97, 97, 0.6);
+
+  transition: all 200ms ease-in;
 }
 .bi {
   background-color: rgb(136, 136, 136);

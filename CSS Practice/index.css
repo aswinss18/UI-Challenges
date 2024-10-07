@@ -20,11 +20,15 @@ body {
 }
 .box-container {
   margin-top: 3rem;
-
   background-color: rgb(103, 155, 251);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  grid-template-areas:
+    ". . . ."
+    "b a a ."
+    "b a a ."
+    ". . . .";
 }
 .box {
   background-color: rgb(37, 37, 255);
@@ -34,4 +38,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.er {
+  grid-area: a;
+  width: auto;
+  height: auto;
+}
+.b {
+  grid-area: b;
 }

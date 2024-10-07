@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import Totalpoints from "./Totalpoints";
 import "./Accordian.css";
-const numberOfDays = [1, 2, 3, 4, 5, 6, 7];
+import { MyContext } from "./App";
 export default function Accordian() {
-  const i = 1;
+  const { numberOfDays } = useContext(MyContext);
+
   return (
     <div className="accordian">
       <h1>Markets</h1>
       <div>
         {numberOfDays.map((day, i) => (
-          <Totalpoints number={i + 1} />
+          <Totalpoints number={i + 1} key={i} />
         ))}
       </div>
     </div>
